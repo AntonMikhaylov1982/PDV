@@ -32,7 +32,6 @@ install:
   - echo "TODO"
   - gem install dpl --pre
   - dpl releases --token $GITHUB_TOKEN --file "bin/PDV-1.45-armeabi-v7a-debug.apk" --tag_name "v.1.45"
-
   - echo "TODO COMPILE 64bit"
   - ls -la
   - rm -r -f .buildozer
