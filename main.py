@@ -20,7 +20,6 @@ from kivy.uix.label import Label
 
 #locale.setlocale(locale.LC_ALL, 'deu_deu')
 
-
 class Widget(App):
     def build(self):
         label = Label(text = 'NEON ПДВ 1.45',
