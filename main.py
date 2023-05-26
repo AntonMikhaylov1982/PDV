@@ -2,7 +2,6 @@ from kivy.app import App
 from kivy.uix.label import Label
 
 #from kivy.uix.button import Button
-
 #from kivy.core.window import Window
 #from kivy.uix.boxlayout import BoxLayout
 #from kivy.uix.listview import ListView
@@ -11,14 +10,13 @@ from kivy.uix.label import Label
 #from kivy.uix.screenmanager import ScreenManager, Screen
 #from kivy.lang import Builder
 #from kivy.properties import ListProperty
-
 #import locale
 #import gettext
 #
 #import os
 #from os.path import dirname, join
-
 #locale.setlocale(locale.LC_ALL, 'deu_deu')
+
 
 class Widget(App):
     def build(self):
